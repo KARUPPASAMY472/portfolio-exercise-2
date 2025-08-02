@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reestar</title>
+</head>
+<body>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .rees
+        {
+            background-color: black;
+            color: white;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+        }
+       
+        .nav_bar p
+        {
+            padding: 10px;
+        }
+        .nav_bar p a
+        {
+            margin: 10px;
+            text-decoration: none;
+            color: blueviolet;
+            
+        }
+        .nav_bar p a:hover
+        {
+            color: white;
+        }
+        .colle_c
+        {
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            gap: 30px;
+            text-align: center;
+        }
+        .collec_1
+        {
+            width: 201px;
+            height: 340px;
+            border: 1px solid black;
+        }
+        .collec_1 img
+        {
+            width: 200px;
+            height: 180px;
+        }
+        .collec_1 h2,p{
+            padding: 5px;
+        }
+        .collec_1 button{
+            padding: 6px 10px;
+            margin: 10px 50px;
+            border: none;
+            background-color: bisque;
+            color: black;
+        }
+        .collec_1 button:hover
+        {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            
+        }
+
+    </style>
+    <div class="rees">
+        <h1>Reestar</h1>
+        <nav class="nav_bar">
+            <p>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html">Register</a>
+            </p>
+        </nav>
+    </div>
+    <div class="colle_c">
+        <div class="collec_1">
+            <img src="veg.jpeg" alt="">
+            <h2>Vegtable Biriyani</h2>
+            <p>Sometime which is very delicious</p>
+            <button>Order now</button>
+        </div>
+        <div class="collec_1">
+            <img src="chicken.jpeg" alt="">
+            <h2>Chicken Biriyani</h2>
+            <p>Sometime which is very delicious</p>
+            <button>Order now</button>
+        </div>
+        <div class="collec_1">
+            <img src="parotta.jpeg" alt="">
+            <h2>Madurai Parotta</h2>
+            <p>Madurai tastest food of parotta</p>
+            <button>Order now</button>
+        </div>
+        <div class="collec_1">
+            <img src="paneer.jpeg" alt="">
+            <h2>Panneer recipie</h2>
+            <p>Sometime which is very delicious</p>
+            <button>Order now</button>
+        </div>
+        
+    </div>
+
+    <style>
+        .conta_as
+        {
+            background-color: rgb(5, 70, 5);
+            color:white;
+            padding: 20px;
+            text-align: center;
+        }
+        .tbl
+        {
+            padding: 10px 0px;
+            text-align: center;
+            align-items: center;
+            margin-left: 610px;
+        }
+         .tbl tr td
+         {
+            padding: 10px;
+         }
+        .tbl input
+        {
+            padding: 5px;
+            width: 100%;
+            border: none;
+        }
+        .tbl input:focus
+        {
+            outline: none;
+        }
+        .btn
+        {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        .btn:hover
+        {
+            cursor: pointer;
+            background-color:white ;
+            color:black ;
+            
+        }
+    </style>
+    <div class="conta_as">
+        <h1>Contact Us</h1>
+        <div class="tbl">
+            <form action="" >
+        
+        <table>
+             <tr>
+                <td>Name :</td>
+                <td><input type="text" placeholder="Enter Your Name" required></td>
+            </tr>
+             <tr>
+                <td>Email :</td>
+                <td><input type="email" placeholder="Enter Your Email" required></td>
+            </tr>
+             <tr>
+                <td>Age :</td>
+                <td><input type="number" placeholder="Enter Your Age" required></td>
+            </tr>
+             <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" class="btn"></td>
+            </tr>
+        </table>
+
+    </form>
+        </div>
+    </div>
+</body>
+</html>

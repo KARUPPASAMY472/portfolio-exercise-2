@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu_bar
+{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.menu_bar a{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+}
+.menu_bar a:hover
+{
+    background-color:white ;
+    color: orangered ;   
+}
+.about
+{
+    margin: 10px;
+    padding: 10px;
+}
+
+.all_to
+{
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+
+}
+.inters
+{
+    padding: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    width: fit-content;
+    height: 289px;
+    border-radius: 5px;
+}
+.inters ul li
+{
+    font-size: 18px;
+    list-style: none;
+
+}
+
+.proj
+{
+    padding: 20px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    width: fit-content;
+    height: 289px;
+    border-radius: 5px;
+}
+
+.proj ul li
+{
+    list-style: none;
+    margin: 20px 0px;
+}
+.conlas
+{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.conlas a
+{
+    text-decoration: none;
+    color: white;
+}
+.conlas a:hover
+{
+    color: orangered;
+    text-decoration: underline;
+}
+
+.lin
+{
+    margin: 10px;
+    padding: 10px;
+
+}
+ .lin input
+ {
+    border:none;
+    border-bottom: 1px solid black;
+ }
+ .lin input:focus
+ {
+    outline: none;
+ }
+ .lin table tr td
+ {
+    padding: 10px;
+ }
+.btn
+{
+     padding: 5px 15px;
+     border: none;
+     background-color:black ;
+     color:white;
+     outline: none;
+}
+ .lin textarea:focus
+ {
+    outline: none;
+ }
+
+ .btn:hover
+ {
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+ }

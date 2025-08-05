@@ -45,6 +45,7 @@
             display: flex;
             gap: 30px;
             text-align: center;
+            flex-wrap: wrap;
         }
         .collec_1
         {
@@ -74,7 +75,17 @@
             cursor: pointer;
             
         }
-
+        @media screen and (width : 600px) {
+            .conta_as
+            {
+                width: 400px;
+            }
+            .tbl table
+            {
+                width: 100px;
+                margin-right:650px
+            }
+        }
     </style>
     <div class="rees">
         <h1>Reestar</h1>
@@ -120,14 +131,18 @@
             background-color: rgb(5, 70, 5);
             color:white;
             padding: 20px;
-            text-align: center;
         }
         .tbl
         {
             padding: 10px 0px;
-            text-align: center;
+            display: flex;
+            justify-content: center;
             align-items: center;
-            margin-left: 610px;
+        }
+        .tbl table
+        {
+            text-align: center;
+            
         }
          .tbl tr td
          {
@@ -135,9 +150,10 @@
          }
         .tbl input
         {
+            text-align: center;
             padding: 5px;
-            width: 100%;
             border: none;
+
         }
         .tbl input:focus
         {
@@ -156,9 +172,21 @@
             color:black ;
             
         }
+        
+        @media screen and (width : 600px) {
+            .conta_as
+            {
+                width: 400px;
+            }
+            .tbl table
+            {
+                width: 100px;
+                margin:0px
+            }
+        }
     </style>
     <div class="conta_as">
-        <h1>Contact Us</h1>
+        <h1 style="text-align: center;">Contact Us</h1>
         <div class="tbl">
             <form action="" >
         
